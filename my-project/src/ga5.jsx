@@ -24,7 +24,6 @@ const HookForm = () => {
   getCity();
 
   useEffect(() => {
-    console.log("balls");
     fetch('./ward.json')
     .then(response => response.json())
     .then(data => {
